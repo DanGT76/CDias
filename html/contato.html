@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Entre em contato com a CDias para orçamentos e consultoria técnica." />
+    <title>Contato — CDias</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">CDias</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section-light">
+        <section>
+            <h1>Contato</h1>
+
+            <p>Preencha o formulário abaixo ou utilize os contatos diretos para solicitar orçamento ou esclarecimentos técnicos.</p>
+
+            <form id="contact-form" onsubmit="event.preventDefault(); alert('Obrigado! Sua mensagem foi recebida (formulário de exemplo).');">
+                <label for="name">Nome</label><br>
+                <input id="name" type="text" placeholder="Seu nome" required><br><br>
+
+                <label for="email">E-mail</label><br>
+                <input id="email" type="email" placeholder="seu@exemplo.com" required><br><br>
+
+                <label for="phone">Telefone</label><br>
+                <input id="phone" type="tel" placeholder="(00) 0000-0000"><br><br>
+
+                <label for="message">Mensagem</label><br>
+                <textarea id="message" rows="5" placeholder="Descreva sua necessidade"></textarea><br><br>
+
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+
+            <hr>
+
+            <p><strong>Telefone:</strong> (00) 0000-0000</p>
+            <p><strong>E-mail:</strong> contato@cdias.com.br</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 — Cidade — Estado</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 CDias — Gases Medicinais e Especiais</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

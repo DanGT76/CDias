@@ -1,0 +1,56 @@
+/* ajustes tipográficos e seções */
+body {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: #f5f7f5;
+    color: #1e1e1e;
+    line-height: 1.6;
+}
+
+/* títulos */
+h1, h2, h3 {
+    color: #000000;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1rem; }
+
+/* textos */
+p { font-size: 1rem; margin-bottom: 12px; max-width: 900px; }
+
+/* seção */
+.section-light { background-color: #ffffff; padding: 40px 10%; }
+.section-dark { background-color: #023100; color: #ffffff; padding: 40px 10%; }
+
+.section-dark h1, .section-dark h2, .section-dark h3 { color: #ffffff; }
+
+/* botões */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #023100;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.btn:hover { background-color: #035c02; }
+
+/* listas */
+ul { margin-top: 12px; padding-left: 18px; }
+ul li { margin-bottom: 8px; }
+
+/* footer (repetido para garantir consistência) */
+footer {
+    background-color: #023100;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    font-size: 0.9rem;
+}
+
+/* pequenas melhorias visuais para cards */
+.card h2 { margin-bottom: 8px; }
+.card p { color: #333; }
